@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo&family=Caprasimo&display=swap');
+
+/* General Section Styling */
+.budget-section {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-self: stretch;
+    gap: 0rem;
+    padding: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #ffffff;
+}
+
+/* Individual Budget Item */
+.budget-item {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-top: 30px;
+}
+
+.align-left {
+    margin-left: 50px;
+}
+
+.align-right {
+    margin-right: 50px;
+}
+
+/* Image General Styling */
+.image {
+    flex-shrink: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.essentials-image {
+    float: right;
+    width: 177px;
+    height: 221.122px;
+    top: 2080px;
+    left: 1000px;
+}
+
+.fun-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    top: 2400px;
+    left: 160px;
+}
+
+/* Essentials Budget Intro */
+.essentials-intro {
+    font-family: Baloo;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #272921;
+    letter-spacing: -0.33px;
+    margin: 0;
+    width: 225px;
+    height: 45px;
+}
+
+
+/* Title General Styling */
+.title {
+    color: #272921;
+    font-family: Caprasimo;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 78px */
+    letter-spacing: -0.572px;
+    width: 615px;
+    margin: 0;
+}
+
+/* Fun Title */
+.fun-title {
+    width: 100%;
+    text-align: right;
+    margin-right: auto; /* Push away from the floated image */
+}
+
+
+/* Description General Styling */
+.description {
+    color: #272921;
+    font-family: Geologica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 847px;
+}
+
+.fun-description {
+    margin-left: auto; /* Push away from the left side */
+    margin-right: 0;
+}
+
+.save-description {
+    width: 1134px;
+}
+
+
+/* Tags General Styling */
+.budget-tags {
+    font-family: Caprasimo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    width: 1208px;
+    text-align: left;
+}
+
+.essentials-tags {
+    color: #A3B77F;
+}
+
+.fun-tags {
+    color: #EED68A;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.save-tags {
+    color: #B4DDF3;
+}
