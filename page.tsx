@@ -296,7 +296,7 @@ const Finance = () => {
                 </div>
             </div>
 
-            {/* Divider LIne */}
+            {/* Divider Line */}
             <div className="footer-divider"></div>
 
             <div className="footer-box-row"> 
