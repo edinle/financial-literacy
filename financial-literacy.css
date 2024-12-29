@@ -1,0 +1,1030 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo&family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap');
+
+/* Styling for General Section */
+section {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    flex-shrink: 0;
+    height: 100vh;
+    align-self: stretch;
+    gap: 0rem;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ABC0B8;
+}  
+
+/* General Text Styles */
+/* Styling for <h2> (titles) */
+h1, h2 {
+    color: #272921;
+    font-family: "Caprasimo", serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* Equivalent to 78px */
+    letter-spacing: -0.572px;
+}
+
+/* Styling for <h4> (intros, subtitles) */
+h4 {
+    font-family: "Baloo", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #272921;
+    letter-spacing: -0.33px;
+}
+  
+/* Styling for <p> (descriptions) */
+p {
+    color: #272921;
+    font-family: "Geologica", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; /* Default line height */
+}
+
+
+.subtitle {
+    font-family: Baloo;
+    font-size: 32px;
+    justify-content: center;
+    color: #444933;
+}
+
+/* Image General Styling */
+.image {
+    flex-shrink: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    height: 70px;
+    padding: 19px 0;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #abc0b8;
+    background-color: #fff;
+}
+  
+    /* Text Container */
+    .text-container {
+        display: flex;
+        width: 361px;
+        height: 32px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px; /* Space between items */
+    }
+  
+    /* Nav Items */
+    .nav-item {
+        color: #272921;
+        text-align: center;
+        font-family: "Geologica", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: -0.198px;
+    }
+
+/* Hero */
+.hero-section {
+    height: 100vh;
+}
+    .coin-plant {
+        width: 80px;
+        height: 138px;
+        object-fit: cover;
+        top: 110px;
+        left: 430px;
+    }
+
+    .hero-title-box {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        margin-bottom: 60px;
+        margin-left: 100px;
+    }
+
+    .hero-title {
+        font-size: 62px;
+        height: auto;
+        align-self: stretch;
+        justify-content: center;
+        padding-bottom: 0;
+        line-height: 1;
+    }
+    
+    .hero-subtitle {
+        font-size: 28px;
+    }
+
+    .hero-box {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 27px;
+        border: 5px solid #ABC0B8;
+        width: 1049px;
+        height: 312px;
+        padding-inline: 40px;
+    }
+  
+    .hero-description {
+        color: #1E1F19;
+        font-family: Geologica;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 42px */
+        letter-spacing: -0.308px;
+        justify-content: center;
+    }
+  
+    .hero-description strong {
+        color: #333;
+    }
+  
+    .hero-buttons {
+        display: flex;
+        margin-top: 1.5rem;
+        gap: 10px;
+    }
+  
+        .btn {
+            padding: 10px 74px 10px 72px;
+            display: inline-flex;
+            font-family: Baloo;
+            font-size: 20px;
+            border-radius: 20px;
+            border: 2px solid #000;
+            cursor: pointer;
+        }
+    
+            .read-blog {
+                background-color: #A3B77F;
+                color: black;
+            }
+        
+            .join-community {
+                padding: 10px 30px;
+                background-color: #ABC0B8;
+                color: black;
+            }
+        .coin-guy-left {
+            width: 158px;
+            height: 158px;
+            object-fit: cover;
+            top: 560px;
+            left: 820px;
+        }
+        .money-bag-guy {
+            width: 221px;
+            height: 231px;
+            object-fit: cover;
+            top: 500px;
+            left: 950px;
+        }
+  
+
+/* Topic Overview */
+.overview-section{
+    height: 80vh;
+}
+
+    .overview-title-box {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+        .overview-title {
+            font-size: 42px;
+            height: auto;
+            align-self: center;
+            justify-content: center;
+            padding-bottom: 0;
+            line-height: normal;
+        }
+
+        .overview-subtitle {
+            font-family: Baloo;
+            font-size: 32px;
+            justify-content: center;
+            color: #444933;
+        }
+  
+  /* Grid Layout for Topics */
+  .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px; /* Space between items */
+  }
+  
+  /* Individual Topic Card */
+  .topic-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 285px;
+  }
+  
+  .topic-image {
+    width: 100px; /* Fixed size for images */
+    height: 100px; /* Fixed size for images */
+    object-fit: cover; /* Ensure images fit within bounds */
+  }
+  
+  .topic-title {
+    font-size: 32px;
+  }
+  
+  .topic-description {
+    font-size: 18px;
+    width: 240px;
+    margin-top: 0.5rem;
+  }
+
+
+/* Budgeting Section */
+.budgeting-section {
+    height: 1722px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    .budgeting-header-box {
+        display: inline-flex;
+        gap: 25px;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+        .budgeting-header-title-box {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        
+        .budgeting-title {
+            font-size: 64px;
+            margin: 0;
+            margin-bottom: 0px;
+            padding: 0;
+            line-height: normal;
+        }
+
+        .budgeting-subtitle {
+            margin-top: 0px;
+            padding: 0;
+        }
+
+        .budgeting-title-left-box, .budgeting-title-right-box {
+            align-self: flex-start; /* Aligns the side boxes to the top of the container */
+            margin-top: 30px; /* Adjust this to align exactly with the title */
+            height: 14px;
+            background: #A3B77F;
+        }
+
+        .budgeting-title-left-box {
+            width: 150px;
+            border-radius: 0px 50px 50px 0px;
+        }
+
+        .budgeting-title-right-box {
+            width: 460px;
+            border-radius: 50px 0px 0px 50px;
+        }
+    
+    .pizza-budget-image {
+        width: 285px;
+        height: 285px;
+        object-fit: cover;
+        margin-top: 260px;
+        left: 130px;
+    }
+
+    .budgeting-box {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 850px;
+        height: 250px;
+        margin-top: 55px;
+        margin-left: 400px;
+    }
+
+        .budgeting-overview-description {
+            margin-top: 10px;
+            width: 785px;
+        }
+        
+        .budget-buttons {
+            display: flex;
+            margin-top: 1.5rem;
+            gap: 16px;
+        }
+    
+            .btn {
+                padding: 10px 54px;
+                display: inline-flex;
+                font-family: Baloo;
+                font-size: 20px;
+                font-stretch: expanded;
+                border-radius: 20px;
+                border: 2px solid #000;
+                cursor: pointer;
+                color: black;
+            }
+        
+                .essentials-box {
+                    padding: 10px 107px;
+                    background-color: #A3B77F;
+                }
+            
+                .wants-box {
+                    padding: 10px 54px;
+                    background-color: #EED68A;
+                }
+
+                .save-box {
+                    padding: 10px 25px;
+                    background-color: #B4DDF3;
+                }
+
+    .budget-action-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 615px;
+        height: 130px;
+        padding: 12px;
+        margin-top: 15px;
+
+        font-size: 32px;
+        gap: -4px;
+
+        border-radius: 45px;
+        border: 4px solid #272921;
+        background: #A3B77F;
+    }
+
+    .budget-action-box-secondary-text {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+/* Loans Section */
+.loans-section {
+    height: 1450px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    .loans-header-box {
+        display: inline-flex;
+        justify-items: center;
+        align-items: center; /* Aligns items to the top */
+        margin-top: 100px;
+        gap: 25px;
+    }
+        
+        .loans-title {
+            font-size: 64px;
+            margin: 0;
+            margin-bottom: 0;
+            padding: 0;
+            text-align: right;
+            line-height: normal;
+        }
+
+        .loans-subtitle {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0;
+            white-space: nowrap; /* Prevent text wrapping */
+            overflow: visible; /* Ensure the subtitle overflows */
+            margin-left: 420px;
+        }
+
+        .loans-title-left-box, .loans-title-right-box {
+            align-self: flex-start; /* Aligns the side boxes to the top of the container */
+            margin-top: 30px; /* Adjust this to align exactly with the title */
+            height: 14px;
+            background: #80908A;
+        }
+
+        .loans-title-left-box {
+            width: 620px;
+            border-radius: 0px 50px 50px 0px;
+        }
+
+        .loans-title-right-box {
+            width: 167px;
+            border-radius: 50px 0px 0px 50px;
+        }
+    
+    
+    .loans-descriptions-box {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 0px;
+    }
+    
+    .loans-descriptions {
+        color: #272921;
+        width: 826px;
+    }
+
+    .loans-bulb-image {
+        position: relative;
+        height: 258px;
+        width: 300px;
+    }
+
+    .loans-box-container {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+        .loans-boxes {
+            width: 540px;
+            height: 300px;
+            border-radius: 10px;
+            padding-inline: 35px;
+            border: 3px solid #272921;
+            background: #D5DDC5;
+
+            display: flex;
+            flex-direction: column;
+            padding-top: 35px;
+        }
+
+        .loans-box-title {
+            color: #272921;
+            font-family: Baloo;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: -0.352px;
+        }
+          
+        .loans-boxes p {
+            color: #272921;
+            font-family: Geologica;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .loans-boxes ul {
+            list-style-type: disc;
+            list-style-position: outside; /* bullets outside the text area */
+            padding-left: 20px; /* spacing between bullets and text */
+        }
+          
+        .loans-boxes li {
+            color: #272921;
+            font-family: Geologica;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    
+    .loans-recommend {
+        width: 1121px;
+        height: 97px;
+        flex-shrink: 0;
+        margin-top: 80px;
+    }
+
+    .loans-action-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: flex-start;
+        width: 675px;
+        height: 130px;
+        padding: 12px 50px;
+        margin-top: 80px;
+        margin-right: 450px;
+
+        font-size: 32px;
+        gap: -8px;
+
+        border-radius: 45px;
+        border: 4px solid #272921;
+        background: #99ACA5;
+    }
+
+    .loans-action-box-secondary-text {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .loans-coin-image {
+        width: 240px;
+        height: 240px;
+        margin-top: 1100px;
+        margin-left: 1000px;
+    }
+
+
+/* Banking Section */
+.banking-section {
+    height: 1311px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    .banking-header-box {
+        display: inline-flex;
+        gap: 25px;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+        .banking-title {
+            font-size: 64px;
+            margin: 0;
+            margin-bottom: 0px;
+            padding: 0;
+            line-height: normal;
+        }
+
+        .banking-subtitle {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0;
+            white-space: nowrap; /* Prevent text wrapping */
+            overflow: visible; /* Ensure the subtitle overflows */
+            margin-right: 300px;
+        }
+
+        .banking-title-left-box, .banking-title-right-box {
+            align-self: flex-start; /* Aligns the side boxes to the top of the container */
+            margin-top: 30px; /* Adjust this to align exactly with the title */
+            height: 14px;
+            background: #F1938E;
+        }
+
+        .banking-title-left-box {
+            width: 150px;
+            border-radius: 0px 50px 50px 0px;
+        }
+
+        .banking-title-right-box {
+            width: 485px;
+            border-radius: 50px 0px 0px 50px;
+        }
+
+    .bank-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: stretch;
+        max-width: 1086px;
+        margin-left: 125px;
+    }
+
+        .align-right {
+            justify-content: flex-end;
+            margin-left: auto;
+            margin-right: 125px;
+        }
+
+        .align-right-title {
+            justify-content: flex-end;
+            margin-left: auto;
+            margin-right: 25px;
+        }
+
+        .bank-overview-title {
+            margin-top: 80px;
+        }
+
+            .banking-introduction {
+                width: 873px;
+            }
+
+            .wallet {
+                width: 250px;
+                height: 250px;
+                margin-top: 240px;
+                margin-left: 950px;
+            }
+
+        .bank-savings-checking-credit {
+            color: #272921;
+            font-family: Caprasimo;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 63px */
+            letter-spacing: -0.462px;
+
+            margin-top: 80px;
+        }
+
+        .bank-save-check-desc {
+            width: 1125px;
+        }
+
+    .bank-action-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+        width: 750px;
+        height: 130px;
+        padding: 12px 50px;
+        margin-top: 85px;
+        margin-left: auto;
+        margin-right: 125px;
+    
+        font-size: 32px;
+        gap: -8px;
+    
+        border-radius: 45px;
+        border: 4px solid #272921;
+        background: #F1938E;
+    }
+    
+    .bank-action-box-secondary-text {
+        font-size: 30px;
+        text-decoration: underline;
+        width: 100%;
+    }
+
+    .money-bag-guy-right {
+        width: 281px;
+        height: 315px;
+        object-fit: cover;
+        top: 5420px;
+        left: 50px;
+    }
+
+
+/* Investment Section */
+.investment-section {
+    height: 1356px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    .investment-header-box {
+        display: inline-flex;
+        justify-items: center;
+        align-items: center; /* Aligns items to the top */
+        margin-top: 100px;
+        gap: 25px;
+    }
+        
+        .investment-title {
+            font-size: 64px;
+            margin: 0;
+            margin-bottom: 0;
+            padding: 0;
+            text-align: center;
+            line-height: normal;
+        }
+
+        .investment-subtitle {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0;
+            white-space: nowrap; /* Prevent text wrapping */
+            overflow: visible; /* Ensure the subtitle overflows */
+            margin-left: 380px;
+        }
+
+        .investment-title-left-box, .investment-title-right-box {
+            align-self: flex-start; /* Aligns the side boxes to the top of the container */
+            margin-top: 30px; /* Adjust this to align exactly with the title */
+            height: 14px;
+            background: #E3C06B;
+        }
+
+        .investment-title-left-box {
+            width: 465px;
+            border-radius: 0px 50px 50px 0px;
+        }
+
+        .investment-title-right-box {
+            width: 167px;
+            border-radius: 50px 0px 0px 50px;
+        }
+
+    .investment-box {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 807px;
+        height: 250px;
+        margin-top: 45px;
+        margin-left: 350px;
+    }
+
+        .investment-overview-description {
+            margin-top: 10px;
+            width: 807px;
+        }
+        
+        .money-hand {
+            width: 273px;
+            height: 273px;
+            object-fit: cover;
+            left: 120px;
+            margin-top: 250px;
+        }
+
+        .investment-box-container {
+            display: flex;
+            flex-direction: row;
+            gap: 28px;
+            margin-top: 50px;
+        }
+    
+            .investment-boxes {
+                width: 380px;
+                height: 150px;
+                border-radius: 10px;
+                border: 4px solid #272921;
+                background: #FFEFC3;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 10px;
+                gap: 10px;
+            }
+    
+            .investment-box-title {
+                color: #272921;
+                font-family: Baloo;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: -0.352px;
+            }
+
+    .investment-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: stretch;
+        max-width: 1086px;
+        margin-left: 125px;
+        margin-top: 50px;
+    }
+
+    .investment-item ol {
+        color: #272921;
+        font-family: Geologica;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 30px */
+        letter-spacing: -0.22px;
+        
+        list-style-type: decimal;
+        list-style-position: outside; /* bullets outside the text area */
+        padding-left: 20px; /* spacing between bullets and text */
+        width: 835px;
+    }
+
+    a {
+      text-decoration: underline;  
+    }
+
+    .invest-action-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: flex-start;
+        width: 675px;
+        height: 130px;
+        padding: 12px 50px;
+        margin-top: 80px;
+        margin-right: 450px;
+
+        font-size: 32px;
+        gap: -8px;
+
+        border-radius: 45px;
+        border: 4px solid #272921;
+        background: #E3C06B;
+    }
+
+    .invest-action-box-secondary-text {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .sprout {
+        width: 380px;
+        height: 350px;
+        margin-top: 900px;
+        margin-left: 900px;
+    }
+
+/* More Section */
+.more-section {
+    height: 827px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    .more-title-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .more-subtitle {
+        align-self: stretch;
+        width: 1108px;
+    }
+
+    .more-btn {
+        padding: 10px 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-family: Baloo;
+        font-size: 20px;
+        color: black;
+        border-radius: 20px;
+        border: 2px solid #000;
+        cursor: pointer;
+    }
+
+        .writer {
+            background-color: #ABC0B8;
+        }
+    
+        .opportunities {
+            background-color: #95AF7C;
+        }
+
+
+
+/* General Footer Styles */
+.footer {
+    height: 438px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+    .footer-box-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-box-col {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+        .footer-title {
+            color: #272921;
+            font-family: Caprasimo;
+            font-size: 33.256px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 49.885px */
+            letter-spacing: -0.366px;
+        }
+
+        .footer-subtitle {
+            color: #272921;
+            font-family: Baloo;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 27px */
+            letter-spacing: -0.198px;
+        }
+
+    .footer-links-box {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 64px;
+        margin-top: 25px;
+    }
+
+        .footer-links p {
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-family: Geologica;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200%;
+        }
+
+        .footer-links-title {
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-family: Geologica;
+            font-weight: 600;
+            line-height: 100%; /* 18px */
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .footer-newsletter-desc {
+            width: 614px;
+            font-size: 20px;
+            line-height: 150%; /* 30px */
+            letter-spacing: -0.22px;
+            margin-bottom: 25px;
+        }
+
+    .footer-divider {
+        width: 1px;
+        height: 250px;
+        background: #ABC0B8;
+        margin: 0 20px;
+        margin-top: 130px;
+    }
+
+        footer-newsletter-form {
+            display: flex;
+            gap: 8px;
+        }
+
+            .footer-newsletter-form input {
+                padding: 10px 16px;
+                border: 2px solid #000;
+                border-right: none;
+                border-radius: 50px 0px 0px 50px;
+                padding: 10px 0px 10px 28px;
+                background: #E9E9E9;
+                
+                color: #828282;
+                font-family: Baloo;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                letter-spacing: -0.176px;
+            }
+
+            .footer-newsletter-form button {
+                background-color: #A3B77F;
+                border: 2px solid #000;
+                border-radius: 0px 50px 50px 0px;
+                padding: 11px 30px 10px 25px;
+
+                color: #000;
+                font-family: Baloo;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                letter-spacing: -0.176px;
+                cursor: pointer;
+            }
